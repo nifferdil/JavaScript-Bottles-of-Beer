@@ -10,7 +10,7 @@ var bottlesOfBeer = function(number) {
 }
 
 var formatArrayToString = function(array) {
-  return array.toString().replace(/,/g, '');;
+  return array.toString().replace(/,/g, '');
 }
 
 $(document).ready(function() {
@@ -18,7 +18,7 @@ $(document).ready(function() {
     number = parseInt($("input#number").val());
 
     var result = bottlesOfBeer(number);
-
+    
     $(".output").text(result);
 
     $("#result").show();
