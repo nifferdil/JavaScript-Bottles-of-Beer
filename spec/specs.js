@@ -1,11 +1,7 @@
-describe('bottlesofBeerFirst', function() {
+describe('bottlesOfBeer', function() {
   it("counts down one number from the user inputted number", function() {
-    expect(bottlesofBeerFirst(99)).to.equal("99 bottles of beer on the wall, 99 bottles of beer. Take one down and pass it around, 98 bottles of beer on the wall.");
+    expect(bottlesOfBeer(3)).to.equal("3 bottles of beer on the wall. 3 bottles of beer. Take one down pass it around- 2 bottles of beer on the wall. 2 bottles of beer on the wall. 2 bottles of beer. Take one down pass it around- 1 bottles of beer on the wall. 1 bottles of beer on the wall. 1 bottles of beer. Take one down pass it around- 0 bottles of beer on the wall. No more bottles of beer on the wall no more bottles of beer. Go to the store and buy some more 99 bottles of beer on the wall.");
   });
 });
 
-// describe('bottlesofBeer', function() {
-//   it("is true when the function returns the factorial of the inputted number", function() {
-//     expect(bottlesofBeer(5)).to.equal(120);
-//   });
-// });
+describe()
